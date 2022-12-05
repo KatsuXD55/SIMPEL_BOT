@@ -7,9 +7,9 @@ global.ownernomer = "6285878178292" //Masukin nomor mu
 global.premium = ['6285878178292'] //Masukin nomor mu
 global.namanya = 'KatsuXD Official' //Masukin nama mu
 global.fakename = '© Katsuu' //Masukin nama mu
-global.botname = 'SIMPEL BOT' //Masukin nama bot kamu
+global.botname = 'SIMPEL BOTZ' //Masukin nama bot kamu
 global.packname = 'Sticker By' //Gakusah di ubah kalau mau di ubah Monggo 
-global.author = 'Katsuu' //Monggo kalau mau ubah
+global.author = 'Katsuu?' //Monggo kalau mau ubah
 global.sessionName = 'session' //Gak usah di ubah
 global.jumlha = '999' //Gak usah di ubah
 global.jumhal = '100000000000000' //Gak usah di ubah
@@ -43,8 +43,8 @@ global.mess = {
     errmor: '_Error Kesalahan Sistem_',
 }
 
-global.fake = fs.readFileSync('./media/image/katsu.jpg')
-global.thumb = fs.readFileSync('./media/image/katsu2.jpg')
+global.fake = fs.readFileSync('./media/image/fake.jpg')
+global.thumb = fs.readFileSync('./media/image/image.jpg')
 
 global.apidhaniofc = `https://api-dhaniofc.herokuapp.com`
 global.dhakey = `exptgl30`
