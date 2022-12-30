@@ -4,8 +4,9 @@ RUN apt-get update && \
   apt-get install -y \
   ffmpeg \
   imagemagick \
-  webp && \
-  apt-get upgrade -y && \
+  webp && yarn &&  \
+  npm i -g pm2 \
+  apt-get upgrade -y && \ 
   rm -rf /var/lib/apt/lists/*
 
 COPY package.json .
@@ -14,4 +15,4 @@ RUN yarn
 
 COPY . .
 
-CMD ["node", "main.js"]
+CMD ["node", "DhaniOfc.js"]
