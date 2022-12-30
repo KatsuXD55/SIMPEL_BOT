@@ -10,8 +10,8 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install
+RUN yarn
 
 COPY . .
 
-CMD ["node", "."]
+CMD ["node", "main.js"]
